@@ -72,21 +72,33 @@ Do wymagań <b> niefunkcjonalnych </b>, prezentujących ogólną jakość wytwor
  - <b>Prostota </b> - serwis powinien być intuicyjny w obsłudze. Zarówno funkcjonalności powinny być proste, jak i warstwa graficzna aplikacji. 
  - <b> Wydajność </b> - Ządania aplikacji powinny być wykonane bardzo szybko.
 
-
 -------------------------------------------------------------------
 :registered: Rejestracja
+
+![Screenshot](resources/Rejestracja.png)
+<p align="center">
+<b>Obraz 4. Rejestracja w serwisie</b>  
+</p>
 
 -------------------------------------------------------------------
 :alien: Logowanie 
 
+![Screenshot](resources/Logowanie.png)
+<p align="center">
+<b>Obraz 5. Logowanie do serwisu </b>  
+</p>
+
 -------------------------------------------------------------------
 📋 Tworzenie taga
+
 
 -------------------------------------------------------------------
 📋 Wyświetlanie tagów
 
+
 -------------------------------------------------------------------
 :newspaper: Dodawanie wpisu 
+
 
 -------------------------------------------------------------------
 🗃 Pozostałe funkcjonalności 
