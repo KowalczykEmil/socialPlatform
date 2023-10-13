@@ -73,7 +73,9 @@ Do wymagań <b> niefunkcjonalnych </b>, prezentujących ogólną jakość wytwor
  - <b> Wydajność </b> - Ządania aplikacji powinny być wykonane bardzo szybko.
 
 -------------------------------------------------------------------
-:registered: Rejestracja
+Aplikacja od strony klienta końcowego
+-------------------------------------------------------------------
+#### :registered: Rejestracja
 
 ![Screenshot](resources/Rejestracja.png)
 <p align="center">
@@ -81,7 +83,7 @@ Do wymagań <b> niefunkcjonalnych </b>, prezentujących ogólną jakość wytwor
 </p>
 
 -------------------------------------------------------------------
-:alien: Logowanie 
+#### :alien: Logowanie 
 
 ![Screenshot](resources/Logowanie.png)
 <p align="center">
@@ -89,19 +91,34 @@ Do wymagań <b> niefunkcjonalnych </b>, prezentujących ogólną jakość wytwor
 </p>
 
 -------------------------------------------------------------------
-📋 Tworzenie taga
+#### 📋 Tworzenie tagu
 
-
--------------------------------------------------------------------
-📋 Wyświetlanie tagów
-
-
--------------------------------------------------------------------
-:newspaper: Dodawanie wpisu 
-
+<div id="images" align="center">
+<img src="resources/Multimedia1.gif">
+<b>Obraz 6. Tworzenie tagu </b>  
+</div>
 
 -------------------------------------------------------------------
-🗃 Pozostałe funkcjonalności 
+#### 📋 Wyświetlanie tagów
 
+![Screenshot](resources/WyswietlanieTagów.png)
+<p align="center">
+<b>Obraz 7. Wyświetlanie tagów w serwisie SocialPlatform </b>  
+</p>
+
+-------------------------------------------------------------------
+#### :newspaper: Dodawanie wpisu 
+
+<div id="images" align="center">
+<img src="resources/Multimedia2.gif">
+<b>Obraz 8. Dodawanie wpisu w serwisie SocialPlatform </b>  
+</div>
+
+-------------------------------------------------------------------
+#### 🗃 Pozostałe funkcjonalności 
+<div id="images" align="center">
+<img src="resources/Multimedia3.gif">
+<b>Obraz 9. Ogólne działanie serwisu SocialPlatform </b>  
+</div>
 
 ##### :copyright: Wykonane przez: Emil Kowalczyk
