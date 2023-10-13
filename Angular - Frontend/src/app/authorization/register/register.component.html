@@ -1,0 +1,58 @@
+<div class="register-section">
+    <div class="row justify-content-center">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" style="text-align: left">
+                    <h4><i class="bi bi-person-add"></i> Załóż konto na SocialPlatform!</h4>
+                </div>
+                <div class="card-body">
+                    <form [formGroup]="registerForm" (ngSubmit)="register()">
+                       
+                        <div class="form-group row">
+                            <label class="col-md-4 col-form-label text-md-right">Nazwa użytkownika: </label>
+                            <div class="col-md-6">
+                                <input type="text" [formControlName]="'username'"class="form-control" required autofocus>
+                                <span *ngIf="!registerForm.get('username').valid && registerForm.get('username').touched">
+                                    Wprowadź prawidłową nazwę!
+                                </span>                                 
+                            </div>
+                        </div>
+ 
+                        <div class="form-group row">
+                            <label for="password" class="col-md-4 col-form-label text-md-right">Hasło: </label>
+                            <div class="col-md-6">
+                                <input type="password" [formControlName]="'password'" id="password" class="form-control" name="password" required>
+                                <span *ngIf="!registerForm.get('password').valid && registerForm.get('password').touched">
+                                    Wprowadź prawidłowe hasło!
+                                </span>  
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="email_address" class="col-md-4 col-form-label text-md-right">Adres E-mail: </label>
+                            <div class="col-md-6">
+                                <input type="text" [formControlName]="'email'" id="email_address" class="form-control" name="email-address" value="e-mail" required
+                                    autofocus>
+                                <span *ngIf="!registerForm.get('email').valid && registerForm.get('email').touched">
+                                    Wprowadź prawidłowy e-mail!
+                                </span>                                    
+                            </div>
+                        </div>
+ 
+                        <span class="col-md-5 offset-md-9">
+                            <button type="submit" class="sign-up">
+                                Dołącz
+                            </button>
+                            <br>
+                        </span>
+                        <span class="col-md-4 offset-md-4">
+                            <span style="float: right;"><i class="bi bi-door-open-fill"> </i>Czy konto już istnieje? <a routerLink="/zaloguj" class="loginn">Zaloguj się!</a></span>
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row" id="xd">
+        <div class="col-sm-4">
+            <div class="square"><i class="bi bi-arrows-move"></i> Akcje:</div>
+            <div class="square"><b>{{sum}}</b></div>
+        </div>
+        <div class="col-sm-4">
+            <div class="square"><i class="bi bi-stickies-fill"></i> Posty:</div>
+            <div class="square"><b>{{postLength}}</b></div>
+        </div>
+        <div class="col-sm-4">
+            <div class="square_hover"><i class="bi bi-chat-text" style="color: white;"></i> <a routerLink="/komentarze-uzytkownika/{{getUsername()}}"> Komentarze:</a></div>
+            <div class="square"><b>{{commentLength}}  </b> </div>
+        </div>
+    </div>
+
+    <hr />
+    <app-post-box [posts]="posts"></app-post-box>
+    
+    <hr />
+
+  </div>

@@ -1,0 +1,12 @@
+<div class="col-md-1 d-flex align-items-center">
+      <div class="d-flex align-items-center">
+       <i *ngIf="isLoggedIn()" (click)="downvotePost()" class="downvote" [style.color]="post.downVote ? 'red' : ''">
+            <i class="bi bi-hand-thumbs-down-fill"></i>
+        </i>
+          <div class="p-2 votecount">{{post.voteCount}}</div>
+        
+        <i *ngIf="isLoggedIn()" (click)="upvotePost()" class="upvote" [style.color]="post.upVote ? 'green' : ''">
+          <i class="bi bi-hand-thumbs-up-fill"></i>
+        </i>
+      </div>
+  </div>

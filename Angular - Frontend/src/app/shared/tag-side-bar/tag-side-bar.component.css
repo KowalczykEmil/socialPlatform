@@ -1,0 +1,37 @@
+.sidebar-view-tag {
+    width: 330px;
+    height: 152px;
+    --post-line-color: #ccc;
+    border: 1px solid #556480;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #878A8C;
+    position: relative;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .sidebar-view-tag {
+    height: 270px;
+  }
+
+  div{
+    padding: 5%;
+    font-size: 17px;
+  }
+
+  a{
+    color: #3c3c3c;
+  }
+
+  a::before{
+    content: "#";
+  }
+
+  i {
+    padding-right: 4px;
+  }
