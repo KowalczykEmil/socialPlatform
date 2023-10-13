@@ -4,14 +4,14 @@
 ◼️ Java ◽  Spring Boot ◽  Angular  ◽ MySQL  ◽ Bootstrap  ◽ AWS ◼️
 
 -------------------------------------------------------------------
-Cel i założenia projektu
+🎯 Cel i założenia projektu
 ------------------------------
-Celem mojej pracy jest przedstawienie możliwości technologii Angular i Spring Boot przy budowie portalu społecznościowego. Metodą badawczą było zaprojektowanie aplikacji internetowej, przy użyciu technologii Angular i Spring BOot, a założonym efektem, było stworzenie pełnej aplikacji internetowej, w oparciu o logikę biznesową oraz interfejs graficzny, wykonanych przy zastosowaniu
-wyżej wspomnianych technologii. Utworzony portal społęcznościowy, ma charakter dyskusyjny, na któym użytkownicy mogą wyrażać swoje opienia na forum publicznym.
+Celem mojej pracy jest przedstawienie możliwości technologii Angular i Spring Boot przy budowie portalu społecznościowego. Metodą badawczą było zaprojektowanie aplikacji internetowej, przy użyciu technologii Angular i Spring Boot, a założonym efektem, było stworzenie pełnej aplikacji internetowej, w oparciu o logikę biznesową oraz interfejs graficzny, wykonanych przy zastosowaniu
+wyżej wspomnianych technologii. Utworzony portal społecznościowy, ma charakter dyskusyjny, na któym użytkownicy mogą wyrażać swoje opienia na forum publicznym.
 
 ---------------------------------------------------------------------
 
-Architektura aplikacji - MVC (Model-View-Controller)
+🎲 Architektura aplikacji - MVC (Model-View-Controller)
 ------------------------------
 Struktura aplikacji jest zbudowana w oparciu o trzy główne warstwy, które współpracują ze sobą, aby zapewnić pełną funkcjonalność aplikacji, są to:
 - Warstwa danych
@@ -24,7 +24,7 @@ Struktura aplikacji jest zbudowana w oparciu o trzy główne warstwy, które wsp
 ------------------------------
 ![Screenshot](resources/MySQL.png)
 <p align="center">
-<b>Obraz 1. Warstwa danych, przy wykorzystaniu RDBMS - "MySQL"</b>  
+<b>Obraz 1. Warstwa danych, przy wykorzystaniu RDBMS - "MySQL".</b>  
 </p>
 
 :green_book: Warstwa logiki biznesowej - Spring Boot
@@ -73,9 +73,9 @@ Do wymagań <b> niefunkcjonalnych </b>, prezentujących ogólną jakość wytwor
  - <b> Wydajność </b> - Ządania aplikacji powinny być wykonane bardzo szybko.
 
 -------------------------------------------------------------------
-Aplikacja od strony klienta końcowego
+📲 Aplikacja od strony klienta końcowego
 -------------------------------------------------------------------
-#### :registered: Rejestracja
+<h3> :registered: Rejestracja </h3>
 
 ![Screenshot](resources/Rejestracja.png)
 <p align="center">
@@ -83,15 +83,15 @@ Aplikacja od strony klienta końcowego
 </p>
 
 -------------------------------------------------------------------
-#### :alien: Logowanie 
+<h3> :alien: Logowanie </h3>
 
 ![Screenshot](resources/Logowanie.png)
 <p align="center">
-<b>Obraz 5. Logowanie do serwisu </b>  
+<b>Obraz 5. Logowanie do serwisu</b>  
 </p>
 
 -------------------------------------------------------------------
-#### 📋 Tworzenie tagu
+<h3> 📋 Tworzenie tagu </h3>
 
 <div id="images" align="center">
 <img src="resources/Multimedia1.gif">
@@ -99,7 +99,7 @@ Aplikacja od strony klienta końcowego
 </div>
 
 -------------------------------------------------------------------
-#### 📋 Wyświetlanie tagów
+<h3> 📋 Wyświetlanie tagów </h3>
 
 ![Screenshot](resources/WyswietlanieTagów.png)
 <p align="center">
@@ -107,7 +107,7 @@ Aplikacja od strony klienta końcowego
 </p>
 
 -------------------------------------------------------------------
-#### :newspaper: Dodawanie wpisu 
+<h3> :newspaper: Dodawanie wpisu </h3>
 
 <div id="images" align="center">
 <img src="resources/Multimedia2.gif">
@@ -115,10 +115,10 @@ Aplikacja od strony klienta końcowego
 </div>
 
 -------------------------------------------------------------------
-#### 🗃 Pozostałe funkcjonalności 
+<h3> 🗃 Pozostałe funkcjonalności </h3>
 <div id="images" align="center">
 <img src="resources/Multimedia3.gif">
 <b>Obraz 9. Ogólne działanie serwisu SocialPlatform </b>  
 </div>
 
-##### :copyright: Wykonane przez: Emil Kowalczyk
+<h5 align="right"> :copyright: Wykonane przez: Emil Kowalczyk </h5>
