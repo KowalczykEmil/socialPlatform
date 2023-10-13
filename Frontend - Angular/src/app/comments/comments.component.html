@@ -1,0 +1,19 @@
+<div class="container">
+
+  <h2 *ngIf="comments"><i class="bi bi-chat-left-text"></i> Komentarze użytkownika: {{comments[0].userName}}
+
+    <a [routerLink]="'/'" class="back-to-home-button" style="float: right;"><i class="bi bi-house-up-fill"> </i> Wróć do strony głównej </a> <a href="/" class="back-to-home-button" (click)="goToUserProfile()" style="float: right;"><i class="bi bi-person-vcard-fill"></i> Wróć do profilu użytkownika</a></h2>
+  <div *ngFor="let comment of comments">
+
+    <hr>
+    <div class="commentary">
+      <div class="username">
+        <a routerLink="/uzytkownicy/{{comment.userName}}">{{comment.userName}}</a>
+      </div>
+      <div>
+        <p>{{comment.duration}}</p>
+      </div>
+      <b>{{comment.text}}</b>
+    </div>
+  </div>
+</div>

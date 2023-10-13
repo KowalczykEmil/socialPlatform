@@ -1,0 +1,98 @@
+.container {
+    max-width: 1700px; /* Maksymalna szerokość kontenera */
+    margin: 0 auto; /* Wyśrodkowanie kontenera na stronie */
+    padding: 20px;
+  }
+
+  
+  
+  /* Stylizacja nagłówka */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: ##556480; /* Kolor nagłówka */
+  }
+  
+  /* Stylizacja listy */
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Stylizacja elementów listy */
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Stylizacja linków */
+  a {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #333; /* Kolor tła linków */
+    color: #fff; /* Kolor tekstu linków */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Cień dla linków */
+  }
+  
+  a:hover {
+    background-color: #555; /* Kolor tła linków po najechaniu */
+  }
+  
+  /* Animacja po najechaniu na elementy listy */
+  li:hover {
+    transform: translateY(-3px);
+    transition: transform 0.3s ease;
+  }
+  
+  hr{
+    background-color: #c6c9cfbb;
+  }
+
+  .commentary{
+    border: 3px solid #333;
+    border-radius: 2%;
+    padding: 1%;
+  }
+
+  .commentary:hover{
+    border: 3px solid #fff;
+    border-radius: 2%;
+    padding: 1%;
+    background-image: linear-gradient(to bottom, #556480, #55be6f);
+    color: white;
+    transition: all 0.3s ease;
+  }
+
+  .back-to-home-button {
+    margin-right: 0.5%;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom, #556480, #55be6f);
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .back-to-home-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .back-to-home-button:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }

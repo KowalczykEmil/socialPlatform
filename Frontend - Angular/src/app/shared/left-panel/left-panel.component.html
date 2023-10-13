@@ -1,0 +1,30 @@
+<div class="panel">
+<div class="col-md">
+    <div class="menu">
+        <app-side-bar></app-side-bar>
+    </div>
+    <hr>
+    <div class="tags">
+        <app-tag-side-bar></app-tag-side-bar>
+    </div>
+    <hr>
+
+    <br>
+    <br>
+
+    <div class="white-mode">
+    <button data-text="Awesome" class="button-white">
+        <span class="actual-text">&nbsp;Tryb ciemny&nbsp;</span>
+        <span class="hover-text" aria-hidden="true">&nbsp;<i class="bi bi-lightbulb-off-fill"></i> ciemny&nbsp;</span>
+    </button>
+</div>
+
+    <div class="actions_left">
+    <button class="actions" (click)="goToUserProfile()"><i class="bi bi-person-vcard-fill"></i> Profil</button>
+    <button class="actions" (click)="logout()"><i class="bi bi-door-closed"></i> Wyloguj się</button>
+    </div>
+    <div class="social-media">
+        <app-social-media></app-social-media>
+    </div>
+    </div>
+  </div>

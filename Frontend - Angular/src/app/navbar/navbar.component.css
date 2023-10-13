@@ -1,0 +1,368 @@
+header{
+    border-radius: 1px solid;
+    margin-bottom: 80px;
+}
+
+
+button{
+    margin-right: 2%;
+    
+}
+
+.logo img{
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+
+
+.socialPlatform-text{        
+    font-weight: 700;
+    height: 50px;
+    width: 50px;    
+    color: #5a5c66;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.menu-container {
+  position: relative;
+}
+
+.userdetails {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.account-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 10px); /* Add a small gap */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 10px;
+  z-index: 1;
+}
+
+.menu-toggle:checked + .dropdown-menu,
+.menu-container.show-menu .dropdown-menu {
+  display: block;
+}
+
+.menu-container.show-menu .userdetails {
+  font-weight: bold;
+  color: #000; /* Change color to indicate the active state */
+}
+
+.dropdown-menu li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-menu li.disabled {
+  color: #999;
+  cursor: not-allowed;
+}
+
+.dropdown-menu li.divider {
+  margin: 5px 0;
+  border-top: 1px solid #ccc;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+
+.login{    
+    background-color: transparent;
+    border-color: #000000;
+    color: #5a5c66;
+    fill: #5a5c66;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 3px 16px;
+    opacity: 1;  
+    float: right;
+    margin-right: 1rem;
+}
+.register{
+    color: #ffffff;
+    background-color: #5a5c66;
+    border-color: #000000;
+    fill: #5a5c66;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 3px 16px;
+    opacity: 1;  
+    float: right;
+    margin-right: 1rem;
+}
+
+a {
+    color: white;
+}
+
+
+.signup:hover{
+    opacity: 0.6;
+}
+
+.userdetails{    
+    background-color: transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 3px 16px;
+    opacity: 1;
+    border: 0px;
+    margin-right: 0.5%;
+}
+
+.userdetails:hover{
+    box-shadow: #5e5d5d 1px 2px 2px;
+}
+
+.dropdown-item{
+    background-color: #f8f9fa;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5%;
+}
+
+.dropdown-item:hover{
+    background-color: #5a5c66;
+    color: aliceblue;
+}
+
+.dropdown-menu{
+    background-color: #f8f9fa;
+}
+
+.account-icon{
+    border-radius: 4px;
+    float: left;
+    margin-right: 5px;
+    max-height: 40px;
+    max-width: 50px;
+}
+
+.donate {
+    margin-left: 4%;
+    width: auto; 
+    padding: 0.5em 0.8rem; 
+    cursor: pointer;
+    gap: 0.3rem;
+    font-weight: bold;
+    border-radius: 30px;
+    text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+    background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+    background-size: 300%;
+    color: #fff;
+    border: none;
+    background-position: left center;
+    transition: background .3s ease;
+}
+
+.donate a{
+  font-size: 12px;
+}
+
+  .donate:hover {
+    background-size: 320%;
+    background-position: right center;
+  }
+  
+  .donate:hover svg {
+    fill: #fff;
+  }
+  
+  .donate svg {
+    width: 22px;
+    fill: #f09f33;
+    transition: .3s ease;
+  }
+
+
+
+  .menu {
+    appearance: none;
+    border: none;
+    background: none;
+    color: #0f1923;
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    transition: all .15s ease;
+  }
+  
+  .menu::before,
+  .menu::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: calc(50% - 5px);
+    border: 1px solid #7D8082;
+    transition: all .15s ease;
+  }
+  
+  .menu::before {
+    top: 0;
+    border-bottom-width: 0;
+  }
+  
+  .menu::after {
+    bottom: 0;
+    border-top-width: 0;
+  }
+  
+  .menu:active,
+  .menu:focus {
+    outline: none;
+  }
+  
+  .menu:active::before,
+  .menu:active::after {
+    right: 3px;
+    left: 3px;
+  }
+  
+  .menu:active::before {
+    top: 3px;
+  }
+  
+  .menu:active::after {
+    bottom: 3px;
+  }
+  
+  .menu_lg {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0f1923;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+  }
+  
+  .menu_lg::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #0f1923;
+  }
+  
+  .menu_lg::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4px;
+    height: 4px;
+    background-color: #0f1923;
+    transition: all .2s ease;
+  }
+  
+  .menu_sl {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    left: -8px;
+    width: 0;
+    background-color: #556480;
+    transform: skew(-15deg);
+    transition: all .2s ease;
+  }
+  
+  .menu_text {
+    position: relative;
+  }
+  
+  .menu:hover {
+    color: #0f1923;
+  }
+  
+  .menu:hover .menu_sl {
+    width: calc(100% + 15px);
+  }
+  
+  .menu:hover .menu_lg::after {
+    background-color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+   .menu{
+    padding: 0.5rem 1rem;
+   }
+
+   .donate{
+    padding: 0.5rem 1rem; 
+   }
+  }
+
+  @media (min-width: 1200px) {
+    .hide-donate {
+      display: none !important;
+    }
+
+  }

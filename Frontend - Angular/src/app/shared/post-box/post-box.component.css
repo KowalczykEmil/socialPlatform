@@ -1,0 +1,125 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+
+.post{
+    --post-line-color: #ccc;    
+    border: 1px solid #556480;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: #222225;
+    color: #c6c9cfbb;
+    position: relative;
+    border-radius: 4px;
+    padding:5px;
+    width: 1320px;
+}
+
+
+
+.btnCommments{
+    border-radius: 2px solid;
+    color: #ad2929;
+    opacity: 1;
+    margin-left: 76%;
+    margin-top: 5%;
+}
+
+
+hr {
+    background-color: #3c3c3c;
+}
+
+.login {
+    margin-left: 3px;
+    background-color: #3c3c3c;
+    color: #ffffff;
+}
+
+.login:hover{
+    background-color: #31d8ee28;
+    color: #ffffff;
+}
+
+.btnCommments:hover{
+    opacity: 0.65;
+    cursor: pointer;
+}
+
+.post-title{
+    font-size: 28px;
+    font-weight: bold;
+    opacity: 1;
+}
+
+
+.posturl, .postname{    
+    color: black;
+}
+
+.tag-text, a.posturl_tag::before{
+    content: "#";
+    font-size: 15px;
+}
+
+.TimeUpper{
+    font-size: 15px;
+}
+
+.tag-text{
+    font-weight: bold;
+}
+
+.post-text{
+    margin-top: 10px;
+}
+
+.createdby{
+    color: red;;
+    color:#333;
+    font-family: Arial, sans-serif;
+}
+
+.postname{
+    color: #556480;
+}
+
+.postname::before{
+    content: '"';
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #556480;
+}
+
+.postname::after{
+    content: '"';
+}
+
+i{
+    color:#ffffff;
+}
+
+.username{
+    color: #c6c9cfbb;
+    font-weight: 700;
+}
+
+.tag-text a {
+    display: inline-block;
+    padding: 3px 7px;
+    margin-left: 1.5%;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+  }
+  
+  .tag-text a:hover {
+    background-color: #555;
+    background-image: linear-gradient(to bottom, #556480, #55be6f);
+    color: white;
+  }

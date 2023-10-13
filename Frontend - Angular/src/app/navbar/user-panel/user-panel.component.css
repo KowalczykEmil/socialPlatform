@@ -1,0 +1,53 @@
+.square{
+  background-color: #556480; 
+  color: #fff;
+  border: solid 1px black;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center; /* Dodana właściwość do wyśrodkowania tekstu */
+}
+
+.square b {
+    font-weight: bold;
+    font-size: 17px;
+    color: #121214;
+    
+  }
+
+ 
+
+  .square_hover{
+    background-color: #556480; 
+    color: #fff;
+    border: solid 1px black;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center; /* Dodana właściwość do wyśrodkowania tekstu */
+  }
+
+  .square_hover b{
+    font-weight: bold;
+    font-size: 17px;
+    color: #121214;
+  }
+
+  .square_hover:hover{
+    background-color: #a2b8e0;
+    cursor: pointer;
+  }
+
+  .square_hover i{
+    color: #121214;
+  }
+
+  .tekst_kom{
+    font-size: 8px;
+    margin-left: 45%;
+    margin-bottom: 0%;
+    font-weight: 700;
+
+  }
+
+  .square_hover a{
+    color: white;
+  }

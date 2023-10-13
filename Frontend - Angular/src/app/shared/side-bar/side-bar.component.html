@@ -1,0 +1,12 @@
+<div class="sidebar">
+    <div style="text-align: center; font-size: 1em">Witaj na <span class="SocialPlatform">SocialPlatform</span>, przeglądaj interesujące tagi! </div>
+    <div style="text-align: center">
+        <button class="btnCreatePost" (click)="CreatePost()">
+            <i class="bi bi-stickies-fill"></i>
+              Stwórz wpis</button>
+    </div>
+    <div *ngIf="isAdmin()" style="text-align: center">
+        <button class="btnCreateTag" (click)="CreateTag()"><i class="bi bi-bookmark-star"></i>
+            Utwórz tag</button>
+    </div>
+</div>
