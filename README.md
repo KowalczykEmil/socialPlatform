@@ -1,4 +1,4 @@
-![image](https://github.com/KowalczykEmil/socialPlatform/assets/73130450/06e9e5a5-8f41-46a0-ae9d-e0a12f55f79a)![image](https://github.com/KowalczykEmil/socialPlatform/assets/73130450/e5ac9acd-98f9-4d07-85dd-f0d67dad218e)# 💻:iphone: socialPlatform - Portal Społecznościowy
+# 💻:iphone: socialPlatform - Portal Społecznościowy
 
 ### 💦 Wykorzystane technologie:
 ◼️ Java ◽  Spring Boot ◽  Angular  ◽ MySQL  ◽ Bootstrap  ◽ AWS ◼️
@@ -65,11 +65,31 @@ Do wymagań <b> funkcjonalnych </b>, które omawiają funkcje, które implementu
 
 #### 💨 Wymagania niefunkcjonalne
 Do wymagań <b> niefunkcjonalnych </b>, prezentujących ogólną jakość wytworzonej aplikacji, można zaliczyć między innymi:
- - <b> Kompatybilność </b> - serwis działa na znanych technologiach, czyli ogólnie używanych klientach, w tym przypadku przeglądarki internetowe oparte na silniku Chromium, silnik przeglądarkowy Gecko. Przez fakt, iż jest to aplikacja internetowa dostęp powinien być możliwy z każdego popularnego systemu operacyjnego!
- - <b> Język aplikacji </b>- aplikacja dziala w języku polskim.
- - <b> Bezpieczeństwo </b> - dane użytkownika, takie jak hasło powinno być poufne i odpowiednio zaszyfrowane.
- - <b> Modularna aplikacja </b> - aplikacja powinna składać się z trzech niezależnych warstw, reprezentujących model danych, interfejs (API) oraz warstwę graficzną.
+ - <b> Kompatybilność </b> - serwis działa na znanych technologiach, czyli ogólnie używanych klientach, w tym przypadku przeglądarki internetowe oparte na silniku Chromium, silnik przeglądarkowy Gecko. Przez fakt, iż jest to aplikacja internetowa dostęp powinien być możliwy z każdego popularnego systemu operacyjnego! 
+ - <b> Język aplikacji </b>- aplikacja dziala w języku polskim. 
+ - <b> Bezpieczeństwo </b> - dane użytkownika, takie jak hasło powinno być poufne i odpowiednio zaszyfrowane. 
+ - <b> Modularna aplikacja </b> - aplikacja powinna składać się z trzech niezależnych warstw, reprezentujących model danych, interfejs (API) oraz warstwę graficzną. 
  - <b>Prostota </b> - serwis powinien być intuicyjny w obsłudze. Zarówno funkcjonalności powinny być proste, jak i warstwa graficzna aplikacji. 
  - <b> Wydajność </b> - Ządania aplikacji powinny być wykonane bardzo szybko.
+
+
+-------------------------------------------------------------------
+:registered: Rejestracja
+
+-------------------------------------------------------------------
+:alien: Logowanie 
+
+-------------------------------------------------------------------
+📋 Tworzenie taga
+
+-------------------------------------------------------------------
+📋 Wyświetlanie tagów
+
+-------------------------------------------------------------------
+:newspaper: Dodawanie wpisu 
+
+-------------------------------------------------------------------
+🗃 Pozostałe funkcjonalności 
+
 
 ##### :copyright: Wykonane przez: Emil Kowalczyk
